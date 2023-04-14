@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Odev31Fibonacci {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
-        System.out.print("Bir sayi girin: ");
+        System.out.print("Fibonacci serisi eleman sayısını giriniz:");
         int n = inp.nextInt();
         int a = 0;
         int b = 1;
